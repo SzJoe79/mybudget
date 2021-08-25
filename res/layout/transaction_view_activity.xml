@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@color/inputContrastBackground" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView android:background="@color/inputContrastBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableLayout android:background="@color/inputContrastBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <View android:background="@color/inputBorder" android:layout_width="fill_parent" android:layout_height="@dimen/inputBorderThickness" />
+                <TableRow android:background="@color/inputBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:gravity="start" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1">
+                        <TextView android:textSize="@dimen/inputSize" android:padding="@dimen/inputPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name" />
+                        <EditText android:textSize="@dimen/inputSize" android:id="@id/nameEdit" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords" />
+                        <TextView android:textSize="@dimen/inputSize" android:id="@id/nameView" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+                    </LinearLayout>
+                    <View android:gravity="end" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                </TableRow>
+                <View android:background="@color/inputBorder" android:layout_width="fill_parent" android:layout_height="@dimen/inputBorderThickness" />
+                <TableRow android:background="@color/inputBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:gravity="start" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1">
+                        <TextView android:textSize="@dimen/inputSize" android:padding="@dimen/inputPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/budget" />
+                        <Spinner android:textSize="@dimen/inputSize" android:id="@id/budgetSpinner" android:paddingLeft="@dimen/inputPadding" android:paddingRight="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+                        <TextView android:textSize="@dimen/inputSize" android:id="@id/budgetView" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+                    </LinearLayout>
+                    <View android:gravity="end" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                </TableRow>
+                <View android:background="@color/inputBorder" android:layout_width="fill_parent" android:layout_height="@dimen/inputBorderThickness" />
+                <TableRow android:background="@color/inputBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:gravity="start" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1">
+                        <TextView android:textSize="@dimen/inputSize" android:padding="@dimen/inputPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account" />
+                        <EditText android:textSize="@dimen/inputSize" android:id="@id/accountEdit" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords" />
+                        <TextView android:textSize="@dimen/inputSize" android:id="@id/accountView" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+                    </LinearLayout>
+                    <View android:gravity="end" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                </TableRow>
+                <View android:background="@color/inputBorder" android:layout_width="fill_parent" android:layout_height="@dimen/inputBorderThickness" />
+                <TableRow android:background="@color/inputBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:gravity="start" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1">
+                        <TextView android:textSize="@dimen/inputSize" android:padding="@dimen/inputPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/value" />
+                        <EditText android:textSize="@dimen/inputSize" android:id="@id/valueEdit" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" />
+                        <TextView android:textSize="@dimen/inputSize" android:id="@id/valueView" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+                    </LinearLayout>
+                    <View android:gravity="end" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                </TableRow>
+                <View android:background="@color/inputBorder" android:layout_width="fill_parent" android:layout_height="@dimen/inputBorderThickness" />
+                <TableRow android:background="@color/inputBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:gravity="start" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1">
+                        <TextView android:textSize="@dimen/inputSize" android:padding="@dimen/inputPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/note" />
+                        <EditText android:textSize="@dimen/inputSize" android:id="@id/noteEdit" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords" />
+                        <TextView android:textSize="@dimen/inputSize" android:id="@id/noteView" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+                    </LinearLayout>
+                    <View android:gravity="end" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                </TableRow>
+                <View android:background="@color/inputBorder" android:layout_width="fill_parent" android:layout_height="@dimen/inputBorderThickness" />
+                <TableRow android:background="@color/inputBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:gravity="start" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1">
+                        <TextView android:textSize="@dimen/inputSize" android:padding="@dimen/inputPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/date" />
+                        <EditText android:textSize="@dimen/inputSize" android:id="@id/dateEdit" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="date" />
+                        <TextView android:textSize="@dimen/inputSize" android:id="@id/dateView" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+                    </LinearLayout>
+                    <View android:gravity="end" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                </TableRow>
+                <View android:background="@color/inputBorder" android:layout_width="fill_parent" android:layout_height="@dimen/inputBorderThickness" />
+                <TextView android:id="@id/receiptLocation" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <TableRow android:id="@id/receiptLayout" android:background="@color/inputBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:gravity="start" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1">
+                        <TextView android:textSize="@dimen/inputSize" android:padding="@dimen/inputPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/receipt" />
+                        <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/noReceiptButtonLayout" android:padding="@dimen/inputButtonPadding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+                            <Button android:id="@id/captureButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/capture" android:layout_weight="1.0" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/hasReceiptButtonLayout" android:padding="@dimen/inputButtonPadding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+                            <Button android:id="@id/viewButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/view" android:layout_weight="1.0" />
+                            <Button android:id="@id/updateButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/update" android:layout_weight="1.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:gravity="end" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                </TableRow>
+                <View android:id="@id/endingDivider" android:background="@color/inputBorder" android:layout_width="fill_parent" android:layout_height="@dimen/inputBorderThickness" />
+                <TableRow android:background="@color/inputContrastBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Space android:layout_width="fill_parent" android:layout_height="10.0dip" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

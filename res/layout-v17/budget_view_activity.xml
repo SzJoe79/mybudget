@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView android:background="@color/inputContrastBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableLayout android:background="@color/inputContrastBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <View android:background="@color/inputBorder" android:layout_width="fill_parent" android:layout_height="@dimen/inputBorderThickness" />
+                <TableRow android:background="@color/inputBackground" android:layout_width="fill_parent">
+                    <View android:gravity="start" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_column="1">
+                        <TextView android:textSize="@dimen/inputSize" android:padding="@dimen/inputPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name" android:labelFor="@id/budgetNameEdit" />
+                        <EditText android:textSize="@dimen/inputSize" android:id="@id/budgetNameEdit" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords" />
+                        <TextView android:textSize="@dimen/inputSize" android:id="@id/budgetNameView" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+                    </LinearLayout>
+                    <View android:gravity="end" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                </TableRow>
+                <View android:background="@color/inputBorder" android:layout_width="fill_parent" android:layout_height="@dimen/inputBorderThickness" />
+                <TableRow android:background="@color/inputBackground" android:layout_width="fill_parent">
+                    <View android:gravity="start" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_column="1">
+                        <TextView android:textSize="@dimen/inputSize" android:padding="@dimen/inputPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/value" android:labelFor="@id/budgetNameEdit" />
+                        <EditText android:textSize="@dimen/inputSize" android:id="@id/valueEdit" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+                        <TextView android:textSize="@dimen/inputSize" android:id="@id/valueView" android:padding="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+                    </LinearLayout>
+                    <View android:gravity="end" android:background="@color/inputBorder" android:layout_width="@dimen/inputBorderThickness" android:layout_height="fill_parent" />
+                </TableRow>
+                <View android:background="@color/inputBorder" android:layout_height="@dimen/inputBorderThickness" />
+                <TableRow android:background="@color/inputContrastBackground">
+                    <Space android:layout_width="fill_parent" android:layout_height="10.0dip" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

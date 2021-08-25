@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/add" android:enabled="true">
+        <intent android:targetPackage="protect.budgetwatch" android:action="ActionAddRevenue" android:targetClass="protect.budgetwatch.TransactionViewActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/add" android:enabled="true">
+        <intent android:targetPackage="protect.budgetwatch" android:action="ActionAddExpense" android:targetClass="protect.budgetwatch.TransactionViewActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

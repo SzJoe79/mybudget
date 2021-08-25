@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Grocery">Boodschap</string>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="about">Over</string>
+    <string name="about_title_fmt">Over %s</string>
+    <string name="account">Rekening</string>
+    <string name="add">Toevoegen</string>
+    <string name="addBudgetTitle">Budget toevoegen</string>
+    <string name="addExpenseDescription">Uitgave toevoegen</string>
+    <string name="addExpenseDisabled">Het toevoegen van uitgaven is uitgeschakeld</string>
+    <string name="addExpenseTransactionShortcutTitle">Uitgave-snelkoppeling toevoegen</string>
+    <string name="addExpenseTransactionTitle">Uitgave toevoegen</string>
+    <string name="addRevenueDisabled">Het toevoegen van inkomsten is uitgeschakeld</string>
+    <string name="addRevenueTransactionShortcutTitle">Inkomsten-snelkoppeling toevoegen</string>
+    <string name="addRevenueTransactionTitle">Inkomsten toevoegen</string>
+    <string name="addShortcuts">Snelkoppelingen toevoegen</string>
+    <string name="addShortcutsTitle">Budgetbeheer-snelkoppeling toevoegen</string>
+    <string name="allDates">Alle datums</string>
+    <string name="app_copyright_fmt">Copyright 2016-%dBranden Archer</string>
+    <string name="app_libraries" formatted="false">%s gebruikt de volgende bibliotheken van derde partijen: %s</string>
+    <string name="app_license">Uitgebracht onder de GPLv3-licentie.</string>
+    <string name="app_name">Budgetbeheer</string>
+    <string name="app_resources" formatted="false">%s gebruikt de volgende bronnen van derde partijen: %s</string>
+    <string name="app_revision_fmt">Versie-informatie: %s</string>
+    <string name="budget">Budget</string>
+    <string name="budgetDateRangeHelp">Selecteer een datumbereik voor het tonen van budgetten</string>
+    <string name="budgetDescription">Budgetten creëren en beheren</string>
+    <string name="budgetMissing">Geen budget geselecteerd</string>
+    <string name="budgetTypeMissing">Budgettype is leeg</string>
+    <string name="budgetValueMissing">Budgetwaarde is leeg</string>
+    <string name="budgetsTitle">Budgetten</string>
+    <string name="cancel">Annuleren</string>
+    <string name="capture">Foto maken</string>
+    <string name="changeDateRange">Datumbereik wijzigen</string>
+    <string name="clean">Opschonen</string>
+    <string name="cleaning">Bezig met opschonen…...</string>
+    <string name="cleanupHelp">Selecteer een datum. Alle bonnen op of vóór de datum zullen worden verwijderd.</string>
+    <string name="confirm">Bevestigen</string>
+    <string name="date">Datum</string>
+    <string name="dateInvalid">Ongeldige datum</string>
+    <string name="dateRangeField">Datumbereik:</string>
+    <string name="dateRangeFormat">%1$s~%2$s</string>
+    <string name="debug_version_fmt">Versie: %s</string>
+    <string name="delete">Verwijderen</string>
+    <string name="deleteBudgetConfirmation">Bevestig dat je dit budget wilt verwijderen. Alle transacties onder dit budget zullen bewaard blijven.</string>
+    <string name="deleteBudgetTitle">Budget verwijderen</string>
+    <string name="deleteTransactionConfirmation">Bevestig dat je deze transactie wilt verwijderen.</string>
+    <string name="deleteTransactionTitle">Transactie verwijderen</string>
+    <string name="edit">Bewerken</string>
+    <string name="editBudgetTitle">Budget bewerken</string>
+    <string name="editExpenseTransactionTitle">Uitgave bewerken</string>
+    <string name="editRevenueTransactionTitle">Inkomsten bewerken</string>
+    <string name="encodingReceipt">Bon coderen</string>
+    <string name="endDate">Einddatum</string>
+    <string name="expensesTitle">Uitgaven</string>
+    <string name="exportDateRangeHelp">Selecteer een datumbereik om te exporteren</string>
+    <string name="exportFailed">"Exporteren naar '%1$s' mislukt"</string>
+    <string name="exportFailedTitle">Exporteren mislukt</string>
+    <string name="exportName">Exporteren</string>
+    <string name="exportOptionExplanation">Gegevens worden weggeschreven naar de bovenste map op de externe opslag.</string>
+    <string name="exportProgressFormat" formatted="false">%d van%d items geëxporteerd</string>
+    <string name="exportSuccessfulTitle">Exporteren voltooid</string>
+    <string name="exportedTo">Geëxporteerd naar: %1$s</string>
+    <string name="exporting">Bezig met exporteren…...</string>
+    <string name="fileFormat">Bestandsformaat</string>
+    <string name="fraction">%1$d/%2$d</string>
+    <string name="icon">pictogram</string>
+    <string name="iconDescription">Budgetbeheer-pictogram</string>
+    <string name="importExport">Importeren/Exporteren</string>
+    <string name="importExportHelp">Geback-upte gegevens maken het mogelijk om je budgetten en transacties over te zetten naar een ander apparaat.</string>
+    <string name="importExportTitle">Importeren/Exporteren</string>
+    <string name="importFailed">"Importeren uit '%1$s' mislukt"</string>
+    <string name="importFailedTitle">Importeren mislukt</string>
+    <string name="importOptionApplicationButton">Externe app gebruiken</string>
+    <string name="importOptionApplicationExplanation">Open een bestand middels een externe app, zoals Dropbox, Google Drive of je favoriete bestandsbeheerder.</string>
+    <string name="importOptionApplicationTitle">Importeren uit bestandssysteem</string>
+    <string name="importOptionFilesystemButton">Uit bestandssysteem</string>
+    <string name="importOptionFilesystemExplanation">Kies een specifiek bestand uit het bestandssysteem</string>
+    <string name="importOptionFilesystemTitle">Importeren uit bestandssysteem</string>
+    <string name="importOptionFixedButton">Exportlocatie gebruiken</string>
+    <string name="importOptionFixedExplanation">Importeren vanuit dezelfde locatie op het bestandssysteem waarnaar is weggeschreven bij het exporteren.</string>
+    <string name="importOptionFixedTitle">Importeren uit exportlocatie</string>
+    <string name="importProgressFormat">%d items geïmporteerd</string>
+    <string name="importSuccessfulTitle">Importeren voltooid</string>
+    <string name="importedFrom">Geïmporteerd uit: %1$s</string>
+    <string name="importing">Bezig met importeren…...</string>
+    <string name="intro1Description">Beheer je budget door het bijhouden van je uitgaven.</string>
+    <string name="intro1Title">"Welkom bij Budgetbeheer
+"</string>
+    <string name="intro2Description">"Je kunt zoveel budgetten maken als je wilt, elk met hun eigen maandelijkse limieten.
+
+Als je een budget wilt creëren, druk dan op de knop Budgetten op het beginscherm en druk op de plus-knop in het menu."</string>
+    <string name="intro2Title">"Budgetten
+"</string>
+    <string name="intro3Description">"Na het creëren van een budget, kunnen transacties worden toegevoegd die van toepassing zijn op dat budget.
+
+Als je een transactie wilt toevoegen, druk dan op de knop Transacties op het hoofdscherm, selecteer het tabblad Uitgaven of Inkomsten en druk op de plus-knop in het menu."</string>
+    <string name="intro3Title">"Transacties
+"</string>
+    <string name="intro4Description">Als je op een budget drukt, dan worden alle transacties voor dat budget getoond.</string>
+    <string name="intro4Title">"Filteren
+"</string>
+    <string name="intro5Description">Standaard tonen de budgetten de uitgaven van de huidige maand. Als je het tijdvak wilt wijzigen, druk dan op het kalenderpictogram in het menu.</string>
+    <string name="intro5Title">"Budgetvenster
+"</string>
+    <string name="intro6Description">Budgetten en transacties kunnen worden geback-upt. Als je gegevens wilt exporteren of importeren, druk dan op het pictogram Importeren/Exporteren in het menu op het beginscherm.</string>
+    <string name="intro6Title">"Budgetvenster
+"</string>
+    <string name="intro7Description">"Deze app is gratis, reclamevrij en open source. Bekijk de details door te drukken op Over in het menu op het hoofdscherm.
+
+Geef feedback in de app-winkel! (:"</string>
+    <string name="intro7Title">"Feedback
+"</string>
+    <string name="loading">Bezig met laden…...</string>
+    <string name="name">Naam</string>
+    <string name="noBudgets">"Je heb nog geen budgetten. Druk op de \"+\" (plus)-knop bovenin om te beginnen.
+
+Budgetbeheer laat je budgetten creëren om je uitgaven gedurende de maand in de gaten te houden."</string>
+    <string name="noCameraPermissionError">"Het is niet mogelijk om een foto te nemen zonder de machtiging 'camera'."</string>
+    <string name="noExpenses">Je hebt nog geen uitgaven. Druk op de \"+\" (plus)-knop bovenin om te beginnen.</string>
+    <string name="noExpensesForBudget">Je hebt nog geen uitgaven voor het budget \"%1$s\".</string>
+    <string name="noExternalStoragePermissionError">"Het importeren of exporteren van kaarten is niet mogelijk zonder de machtiging 'externe opslag'."</string>
+    <string name="noRevenues">Je hebt nog geen inkomsten. Druk op de \"+\" (plus)-knop bovenin om te beginnen.</string>
+    <string name="noRevenuesForBudget">Je hebt nog geen inkomsten voor het budget \"%1$s\".</string>
+    <string name="note">Notitie</string>
+    <string name="ok">Oké</string>
+    <string name="one_hundred">100</string>
+    <string name="pictureCaptureError">Foto nemen met camera is niet mogelijk</string>
+    <string name="purgeOldReceipts">Oude bonnen verwijderen</string>
+    <string name="receipt">Bon</string>
+    <string name="receiptQuality">Kwaliteit van de bon</string>
+    <string name="receiptQualitySummary">"Selecteer de te gebruiken JPEG-kwaliteit voor het nemen van foto's"</string>
+    <string name="revenuesTitle">Inkomsten</string>
+    <string name="save">Opslaan</string>
+    <string name="search">Zoeken</string>
+    <string name="searchEmptyExpenses">Geen overeenkomende uitgaven.</string>
+    <string name="searchEmptyRevenues">Geen overeenkomende inkomsten.</string>
+    <string name="searchHint">Zoeken…</string>
+    <string name="search_menu_title">Zoeken</string>
+    <string name="selectDates">Datums selecteren</string>
+    <string name="sendLabel">Versturen…</string>
+    <string name="set">Instellen</string>
+    <string name="settings">Instellingen</string>
+    <string name="share">Delen</string>
+    <string name="shortcutsAdded">Snelkoppelingen toegevoegd</string>
+    <string name="startDate">Begindatum</string>
+    <string name="startDateAfterEndDate">De begindatum moet op of vóór de einddatum zijn</string>
+    <string name="startIntro">Rondleiding starten</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="totalBudgetTitle">Totaal</string>
+    <string name="transactionsDescription">Voer transacties en inkomsten in</string>
+    <string name="transactionsTitle">Transacties</string>
+    <string name="type">Type</string>
+    <string name="update">Bijwerken</string>
+    <string name="value">Waarde</string>
+    <string name="valueInvalid">Ongeldige waarde</string>
+    <string name="valueMissing">Waarde is leeg</string>
+    <string name="view">Bekijken</string>
+    <string name="viewBudgetTitle">Budget bekijken</string>
+    <string name="viewExpenseTransactionTitle">Uitgave bekijken</string>
+    <string name="viewRevenueTransactionTitle">Inkomsten bekijken</string>
+</resources>

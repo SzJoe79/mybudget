@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Grocery">Élelmiszerbolt</string>
+    <string name="abc_action_bar_home_description">Ugrás a főoldalra</string>
+    <string name="abc_action_bar_up_description">Felfelé mozgatás</string>
+    <string name="abc_action_menu_overflow_description">További lehetőségek</string>
+    <string name="abc_action_mode_done">Kész</string>
+    <string name="abc_activity_chooser_view_see_all">Összes megtekintése</string>
+    <string name="abc_activitychooserview_choose_application">Válasszon ki egy alkalmazást</string>
+    <string name="abc_capital_off">KI</string>
+    <string name="abc_capital_on">BE</string>
+    <string name="abc_search_hint">Keresés…</string>
+    <string name="abc_searchview_description_clear">Lekérdezés törlése</string>
+    <string name="abc_searchview_description_query">Keresési lekérdezés</string>
+    <string name="abc_searchview_description_search">Keresés</string>
+    <string name="abc_searchview_description_submit">Lekérdezés küldése</string>
+    <string name="abc_searchview_description_voice">Hangalapú keresés</string>
+    <string name="abc_shareactionprovider_share_with">Megosztás a következővel:</string>
+    <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
+    <string name="abc_toolbar_collapse_description">Összecsukás</string>
+    <string name="about">Névjegy</string>
+    <string name="about_title_fmt">%s névjegye</string>
+    <string name="account">Számla</string>
+    <string name="add">Hozzáadás</string>
+    <string name="addBudgetTitle">Költségvetés hozzáadása</string>
+    <string name="addExpenseDescription">Kiadási tranzakció hozzáadása</string>
+    <string name="addExpenseDisabled">Egy kiadás hozzáadása le van tiltva</string>
+    <string name="addExpenseTransactionShortcutTitle">Kiadás parancsikon hozzáadása</string>
+    <string name="addExpenseTransactionTitle">Kiadás hozzáadása</string>
+    <string name="addRevenueDisabled">Egy bevétel hozzáadása le van tiltva</string>
+    <string name="addRevenueTransactionShortcutTitle">Bevétel parancsikon hozzáadása</string>
+    <string name="addRevenueTransactionTitle">Bevétel hozzáadása</string>
+    <string name="addShortcuts">Parancsikonok hozzáadása</string>
+    <string name="addShortcutsTitle">Költségvetés-figyelő parancsikon hozzáadása</string>
+    <string name="allDates">Összes dátum</string>
+    <string name="app_copyright_fmt">Copyright 2016-%d Branden Archer</string>
+    <string name="app_libraries" formatted="false">A %s a következő harmadik féltől származó programkönyvtárakat használja: %s</string>
+    <string name="app_license">GPLv3 szerint licencelt.</string>
+    <string name="app_name">Költségvetés-figyelő</string>
+    <string name="app_resources" formatted="false">A %s a következő harmadik féltől származó erőforrásokat használja: %s</string>
+    <string name="app_revision_fmt">Felülvizsgálati információk: %s</string>
+    <string name="budget">Költségvetés</string>
+    <string name="budgetDateRangeHelp">A költségvetésekhez megjelenítendő dátumtartomány kiválasztása</string>
+    <string name="budgetDescription">Költségvetések létrehozása és kezelése</string>
+    <string name="budgetMissing">Nincs költségvetés kiválasztva</string>
+    <string name="budgetTypeMissing">A költségvetés típusa üres</string>
+    <string name="budgetValueMissing">A költségvetés értéke üres</string>
+    <string name="budgetsTitle">Költségvetések</string>
+    <string name="cancel">Mégse</string>
+    <string name="capture">Rögzítés</string>
+    <string name="changeDateRange">Dátumtartomány megváltoztatása</string>
+    <string name="clean">Törlés</string>
+    <string name="cleaning">Törlés…</string>
+    <string name="cleanupHelp">Dátum kiválasztása: az akkori vagy a dátum előtti összes nyugta törlésre kerül</string>
+    <string name="confirm">Megerősítés</string>
+    <string name="date">Dátum</string>
+    <string name="dateInvalid">A dátum érvénytelen</string>
+    <string name="dateRangeField">Dátumtartomány:</string>
+    <string name="dateRangeFormat">%1$s ~ %2$s</string>
+    <string name="debug_version_fmt">Verzió: %s</string>
+    <string name="delete">Törlés</string>
+    <string name="deleteBudgetConfirmation">Erősítse meg, hogy törölni szeretné ezt a költségvetést. A költségvetéshez rendelt összes tranzakció megmarad.</string>
+    <string name="deleteBudgetTitle">Költségvetés eltávolítása</string>
+    <string name="deleteTransactionConfirmation">Erősítse meg, hogy törölni szeretné ezt a tranzakciót.</string>
+    <string name="deleteTransactionTitle">Tranzakció eltávolítása</string>
+    <string name="edit">Szerkesztés</string>
+    <string name="editBudgetTitle">Költségvetés szerkesztése</string>
+    <string name="editExpenseTransactionTitle">Kiadás szerkesztése</string>
+    <string name="editRevenueTransactionTitle">Bevétel szerkesztése</string>
+    <string name="encodingReceipt">Nyugta kódolása</string>
+    <string name="endDate">Befejezési dátum</string>
+    <string name="expensesTitle">Kiadások</string>
+    <string name="exportDateRangeHelp">Az exportálandó tranzakciók dátumtartományának kiválasztása</string>
+    <string name="exportFailed">Nem sikerült exportálni: %1$s</string>
+    <string name="exportFailedTitle">Az exportálás nem sikerült</string>
+    <string name="exportName">Exportálás</string>
+    <string name="exportOptionExplanation">Az adatok a legfelső könyvtárba lettek kiírva a külső tárolón.</string>
+    <string name="exportProgressFormat" formatted="false">%d/%d bejegyzés exportálva</string>
+    <string name="exportSuccessfulTitle">Az exportálás sikeres</string>
+    <string name="exportedTo">Exportálva ide: %1$s</string>
+    <string name="exporting">Exportálás…</string>
+    <string name="fileFormat">Fájlformátum</string>
+    <string name="fraction">%1$d/%2$d</string>
+    <string name="icon">ikon</string>
+    <string name="iconDescription">Költségvetés-figyelő ikonja</string>
+    <string name="importExport">Importálás és exportálás</string>
+    <string name="importExportHelp">A mentett adatok lehetővé teszik a költségvetések és tranzakciók áthelyezését egy másik eszközre.</string>
+    <string name="importExportTitle">Importálás és exportálás</string>
+    <string name="importFailed">Nem sikerült importálni: %1$s</string>
+    <string name="importFailedTitle">Az importálás nem sikerült</string>
+    <string name="importOptionApplicationButton">Külső alkalmazás használta</string>
+    <string name="importOptionApplicationExplanation">Külső alkalmazás használata egy fájl megnyitásához, mint például Dropbox, Google Drive vagy a kedvenc fájlkezelője.</string>
+    <string name="importOptionApplicationTitle">Importálás fájlrendszerről</string>
+    <string name="importOptionFilesystemButton">Fájlrendszerről</string>
+    <string name="importOptionFilesystemExplanation">Válasszon egy adott fájlt a fájlrendszerről.</string>
+    <string name="importOptionFilesystemTitle">importálás fájlrendszerről</string>
+    <string name="importOptionFixedButton">Exportálási hely használata</string>
+    <string name="importOptionFixedExplanation">Importálás a fájlrendszer ugyanazon helyéről, ahova exportáláskor lett kiírva.</string>
+    <string name="importOptionFixedTitle">Importálás az exportálás helyéről</string>
+    <string name="importProgressFormat">%d bejegyzés importálva</string>
+    <string name="importSuccessfulTitle">Az importálás sikeres</string>
+    <string name="importedFrom">Importálva innen: %1$s</string>
+    <string name="importing">Importálás…</string>
+    <string name="intro1Description">Kezelje a költségvetését a költekezések követésével.</string>
+    <string name="intro1Title">"Üdvözli a költségvetés-figyelő
+"</string>
+    <string name="intro2Description">"Annyi költségvetést hozhat létre, amennyit csak követni szeretne, mindegyiket a saját legnagyobb havi költekezéssel.
+
+Egy költségvetés létrehozásához érintse meg a Költségvetéseket a főképernyőn, majd kattintson a plusz gombra a menüben."</string>
+    <string name="intro2Title">"Költségvetések
+"</string>
+    <string name="intro3Description">"Miután létrehozott egy költségvetést, hozzáadhat tranzakciókat, amelyek a költségvetésekre vonatkoznak.
+
+Egy tranzakció létrehozásához érintse meg a Tranzakciókat a főképernyőn. Válassza ki a Kiadások vagy a Bevételek lapot, és kattintson a plusz gombra a menüben."</string>
+    <string name="intro3Title">"Tranzakciók
+"</string>
+    <string name="intro4Description">Egy költségvetés megérintése megjeleníti a költségvetés összes tranzakcióját.</string>
+    <string name="intro4Title">"Szűrések
+"</string>
+    <string name="intro5Description">Alapértelmezetten a költségvetések a jelenlegi hónap költekezéseit jelenítik meg. Az időablak megváltoztatásához érintse meg a naptárikont a menüben.</string>
+    <string name="intro5Title">"Költségvetési ablak
+"</string>
+    <string name="intro6Description">A költségvetésről és a tranzakciókról biztonsági mentés készíthető. Az adatok exportálásához vagy importálásához érintse meg az Importálás és exportálás ikont a főoldalon lévő menüben.</string>
+    <string name="intro6Title">"Költségvetési ablak
+"</string>
+    <string name="intro7Description">"Ez az alkalmazás ingyenes, reklámmentes és nyílt forráskódú. A részleteket a Névjegy megérintésével nézheti meg a főoldalon lévő menüben.
+
+Írjon visszajelzést az alkalmazásboltban! (:"</string>
+    <string name="intro7Title">"Visszajelzés
+"</string>
+    <string name="loading">Betöltés…</string>
+    <string name="name">Név</string>
+    <string name="noBudgets">"Jelenleg nincs egyetlen költségvetése sem. Kattintson a fenti „+” (plusz) gombra a kezdéshez.
+
+A költségvetés-figyelő lehetővé teszi költségvetések létrehozását, majd a költekezés követését a hónap során."</string>
+    <string name="noCameraPermissionError">Nem lehet nyugtát rögzíteni kamerajogosultság nélkül</string>
+    <string name="noExpenses">Jelenleg nincs egyetlen kiadási tranzakciója sem. Kattintson a fenti „+” (plusz) gombra a kezdéshez.</string>
+    <string name="noExpensesForBudget">Jelenleg nincs egyetlen kiadási tranzakciója sem a(z) „%1$s” költségvetéshez.</string>
+    <string name="noExternalStoragePermissionError">Nem lehet importálni vagy exportálni a kártyákat külső tároló jogosultságok nélkül</string>
+    <string name="noRevenues">Jelenleg nincs egyetlen bevételi tranzakciója sem. Kattintson a fenti „+” (plusz) gombra a kezdéshez.</string>
+    <string name="noRevenuesForBudget">Jelenleg nincs egyetlen bevételi tranzakciója sem a(z) „%1$s” költségvetéshez.</string>
+    <string name="note">Jegyzet</string>
+    <string name="ok">OK</string>
+    <string name="one_hundred">100</string>
+    <string name="pictureCaptureError">Nem lehet képet rögzíteni a kamerával</string>
+    <string name="purgeOldReceipts">Régi nyugták törlése</string>
+    <string name="receipt">Nyugta</string>
+    <string name="receiptQuality">Nyugta minősége</string>
+    <string name="receiptQualitySummary">A nyugtaképek rögzítésekor használt JPEG minőség kiválasztása</string>
+    <string name="revenuesTitle">Bevételek</string>
+    <string name="save">Mentés</string>
+    <string name="search">Keresés</string>
+    <string name="searchEmptyExpenses">Nincsenek egyező kiadási tranzakciók.</string>
+    <string name="searchEmptyRevenues">Nincsenek egyező bevételi tranzakciók.</string>
+    <string name="searchHint">Keresés…</string>
+    <string name="search_menu_title">Keresés</string>
+    <string name="selectDates">Dátumok kiválasztása</string>
+    <string name="sendLabel">Küldés…</string>
+    <string name="set">Beállítás</string>
+    <string name="settings">Beállítások</string>
+    <string name="share">Megosztás</string>
+    <string name="shortcutsAdded">Parancsikonok hozzáadva</string>
+    <string name="startDate">Kezdési dátum</string>
+    <string name="startDateAfterEndDate">A kezdési dátumnak a befejezési dátum előtt kell lennie</string>
+    <string name="startIntro">Bemutató indítása</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="totalBudgetTitle">Összesen</string>
+    <string name="transactionsDescription">Tranzakciók és bevételek megadása</string>
+    <string name="transactionsTitle">Tranzakciók</string>
+    <string name="type">Típus</string>
+    <string name="update">Frissítés</string>
+    <string name="value">Érték</string>
+    <string name="valueInvalid">Az érték érvénytelen</string>
+    <string name="valueMissing">Az érték üres</string>
+    <string name="view">Megtekintés</string>
+    <string name="viewBudgetTitle">Költségvetés megtekintése</string>
+    <string name="viewExpenseTransactionTitle">Kiadás megtekintése</string>
+    <string name="viewRevenueTransactionTitle">Bevétel megtekintése</string>
+</resources>

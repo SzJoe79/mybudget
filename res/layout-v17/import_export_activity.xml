@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_medium" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/importExportHelp" />
+            <View android:id="@id/dividerExport" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="16.0dip" />
+            <TextView android:textSize="@dimen/text_size_large" android:id="@id/exportOptionTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/exportName" />
+            <TextView android:textSize="@dimen/text_size_medium" android:id="@id/exportOptionExplanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/exportOptionExplanation" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_medium" android:layout_gravity="start" android:id="@id/exportFileFormatSpinnerLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fileFormat" android:labelFor="@id/exportFileFormatSpinner" />
+                <Spinner android:textSize="@dimen/text_size_medium" android:layout_gravity="end" android:id="@id/exportFileFormatSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_medium" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dateRangeField" android:labelFor="@id/exportFileFormatSpinner" />
+                <TextView android:textSize="@dimen/text_size_medium" android:layout_gravity="start" android:id="@id/dateRangeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/allDates" android:layout_marginStart="10.0dip" android:labelFor="@id/exportFileFormatSpinner" />
+            </LinearLayout>
+            <Button android:layout_gravity="start" android:id="@id/dateRangeSelectButton" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/changeDateRange" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/exportButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/exportName" />
+            <View android:id="@id/dividerImportFilesystem" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="16.0dip" />
+            <TextView android:textSize="@dimen/text_size_large" android:id="@id/importOptionFilesystemTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/importOptionFilesystemTitle" />
+            <TextView android:textSize="@dimen/text_size_medium" android:id="@id/importOptionFilesystemExplanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/importOptionFilesystemExplanation" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/importOptionFilesystemButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/importOptionFilesystemButton" />
+            <View android:id="@id/dividerImportApplication" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="16.0dip" />
+            <TextView android:textSize="@dimen/text_size_large" android:id="@id/importOptionApplicationTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/importOptionApplicationTitle" />
+            <TextView android:textSize="@dimen/text_size_medium" android:id="@id/importOptionApplicationExplanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/importOptionApplicationExplanation" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/importOptionApplicationButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/importOptionApplicationButton" />
+            <View android:id="@id/dividerImportFixed" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="16.0dip" />
+            <TextView android:textSize="@dimen/text_size_large" android:id="@id/importOptionFixedTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/importOptionFixedTitle" />
+            <TextView android:textSize="@dimen/text_size_medium" android:id="@id/importOptionFixedExplanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/importOptionFixedExplanation" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_medium" android:layout_gravity="start" android:id="@id/importOptionFixedFileFormatSpinnerLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fileFormat" android:labelFor="@id/importFileFormatSpinner" />
+                <Spinner android:textSize="@dimen/text_size_medium" android:layout_gravity="end" android:id="@id/importFileFormatSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+            </LinearLayout>
+            <Button android:layout_gravity="center_horizontal" android:id="@id/importOptionFixedButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/importOptionFixedButton" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
